@@ -78,8 +78,8 @@
     padding:20px;
     font-size:10px;
     width:100%;
-    position:absolute;
-    bottom:0;
+    /* position:absolute;
+    bottom:0; */
 }
 
 /* applies to all head tags */
@@ -144,6 +144,7 @@ p {
     overflow:hidden;
     display:flex;
     position:relative;
+    margin:20px;
 }
 
 .box img {
