@@ -11,26 +11,63 @@
 </head>
 <body class="global">
     <!-- NAV HERE -->
+    <nav class="nav">
+            <div>
+                <h1 class="h">Tony Puricelli</h1>
+            </div>
+            <div class="pagelist">
+                <a class="pagelink" href="./index.html">About</a>
+                <a class="pagelink pagelink-portfolio" href="./portfolio.html">Portfolio</a>
+                <a class="pagelink" href="./contact.html">Contact</a>
+            </div>
+        </nav>
 
-
-    <!-- Content -->
-        
-        <!--Main bar-->
-
+<!-- Content -->
+<div class="content">
+        <!-- Main bar -->
+        <div class="foreground mainbar">
             <!--Header-->
-
-                <!--form-->
-
+            <h2 class="h">Contact</h2>
+            <!--form-->
+            <form action="action_page.php">
                 <!--Field 1 - Name-->
-
+                <label>Name</label>
+                <br >
+                <input type="text" name="your-name" placeholder="Your Name Here">
+                <br >
                 <!--Field 2 - Email-->
-
+                <label>Email</label>
+                <br >
+                <input type="text" name="email" placeholder="example@gmail.com">
+                <br >
                 <!--Field 3 - Message-->
-
+                <label>Message</label>
+                <br >
+                <textarea name="message" class="message" rows="10" cols="100"></textarea>
+                <br >
                 <!--Submit button-->
-
+                <input type="submit" value="Submit">
+        </form>
+        </div>
         <!--Side bar-->
-        
+        <div class="foreground sidebar">
+                <h3 class="h sidebar-h"> Connect with me</h3>
+                <div class ="social">
+                    <div>
+                        <img class="thumbnail" src="./assets/images/github.png" alt="Github">
+                    </div>
+                    <div>
+                        <img class="thumbnail" src="./assets/images/linkedin.png" alt="LinkedIn">
+                    </div>
+                    <div>
+                        <img class="thumbnail" src="./assets/images/stackoverflow.png" alt="StackOverflow">
+                    </div>
+                </div>
+        </div>
+    </div>
     <!-- Footer -->
+    <footer class="footer">
+            © Copyright Tony Puricelli
+    </footer>
 </body>
 </html>

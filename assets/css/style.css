@@ -160,5 +160,48 @@ p {
     bottom:10px;
     color:white;
     background-color: #4aaaa5;
-    padding:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* Contact page -- Form entry styles */
+
+/*submit button */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color:white;
+    padding:10px 20px;
+    margin-top:10px;
+}
+
+input[type=submit]:hover {
+    background-color: darkslategrey;
+}
+
+input[type=submit]:active {
+    background-color: black;
+}
+
+/* Field headers */
+label {
+    line-height:2;
+}
+
+/* input fields */
+input[type=text] {
+    width:625px;
+    padding: 10px;
+    box-sizing:border-box;
+}
+
+placeholder {
+    color:gray;
+}
+
+input[type=textarea] {
+    width:625px;
+}
+
+.message {
+    border:1px solid lightgray;
 }
